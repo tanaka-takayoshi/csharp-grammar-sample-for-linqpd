@@ -33,3 +33,9 @@ public class MyClass2
 	private MyClass2()
 	{}
 }
+
+public class MyClass3
+{
+	private static int counter = 0;
+	public MyClass3() => ++counter;
+}

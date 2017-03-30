@@ -19,3 +19,11 @@ public class MyClass
 
 	public int Value { get; set; } = DefaultValue;
 }
+
+public static class MyClass2
+{
+	private static int counter = 0;
+	private static string counterValue;
+	//C#7.0からは式形式で記述可能
+	static MyClass2() => counterValue = counter.ToString();
+}

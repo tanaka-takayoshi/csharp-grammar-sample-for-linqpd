@@ -18,6 +18,16 @@ void Main()
 	k.Dump();
 	//2
 	l.Dump();
+	
+	var str = "1";
+	//m.Dump();
+	if (int.TryParse(str, out var m))
+		m.Dump();
+	m.Dump();
+
+	var str2 = "123";
+	if (int.TryParse(str, out var _))
+		Console.WriteLine($"{str2} is integer.");
 }
 
 static void Swap(ref int x, ref int y)

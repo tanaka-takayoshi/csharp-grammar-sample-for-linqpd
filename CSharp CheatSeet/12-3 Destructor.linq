@@ -16,3 +16,10 @@ public class MyClass
 		Console.WriteLine("Destruct");
 	}
 }
+
+public class MyClass2
+{
+	private static int counter = 0;
+	//C#7.0からは式形式で記述可能
+	~MyClass2() => --counter;
+}

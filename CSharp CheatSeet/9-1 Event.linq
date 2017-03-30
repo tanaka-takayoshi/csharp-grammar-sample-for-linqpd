@@ -58,3 +58,11 @@ event EventHandler CustomHandler
 //自前で定義したdelegateをイベントの型として利用することもできる
 public delegate void MyEventHandler();
 public event MyEventHandler MyChanged;
+
+private int counter = 0;
+//C# 7.0より式形式で記述可能
+public event Action E
+{
+	add => ++counter;
+	remove => --counter;
+}

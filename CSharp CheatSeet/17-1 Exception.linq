@@ -15,6 +15,7 @@ void Main()
 		Console.WriteLine("Catch Exception: " + ex.Message);
 		throw;   // 再スロー
 	}
+	
 }
 
 void ThrowException()
@@ -25,4 +26,17 @@ void ThrowException()
 public class MyException : Exception
 {
 	public int Value { get; set; }
+}
+
+//C# 7.0より例外を式としてスローできるようになった箇所
+public class MyClass
+{
+	public string Name { get; }
+	//ラムダ式や式形式メンバの=>の後
+	public MyClass() => throw new Exception();
+	//null合算演算子の第2オペランド
+	public MyClass(string name) => Name = name ?? throw new Exception();
+	//三項演算子の第2,第3オペランド
+	public MyClass(int i) => Name = i > 0 ? GetNameById(i) : throw new Exception();
+	private string GetNameById(int i) => $"name-{i}";
 }

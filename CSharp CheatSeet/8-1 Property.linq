@@ -29,4 +29,12 @@ public class MyClass
 	{
 		Console.WriteLine("ValueChanged");
 	}
+
+	private int value2;
+	//C# 7.0より式形式で記述可能
+	public int Value2
+	{
+		get => value2;                 // getterはC# 6.0より可能
+		set => value2 = value;         // setter
+	}
 }

@@ -27,3 +27,14 @@ public class MyClass
 	
 	public int this[string s] => dict.ContainsKey(s) ? dict[s] : 0;
 }
+
+public class MyClass2
+{
+	private Dictionary<string, int> dict = new Dictionary<string, int>();
+	//C# 7.0より式形式で記述可能
+	public int this[string s]
+	{
+		get => dict.ContainsKey(s) ? dict[s] : 0;
+		set => dict[s] = value;
+	}
+}
