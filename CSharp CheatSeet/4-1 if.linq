@@ -26,5 +26,3 @@ static bool Check()
 {
 	return false;
 }
-
-// Define other methods and classes here

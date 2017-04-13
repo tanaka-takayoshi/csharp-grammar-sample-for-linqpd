@@ -11,5 +11,3 @@ void Main()
 	var f4 = 1 <= 2; // True
 	f4.Dump();
 }
-
-// Define other methods and classes here

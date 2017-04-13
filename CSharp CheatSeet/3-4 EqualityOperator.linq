@@ -11,5 +11,3 @@ void Main()
 	var f4 = "abc" == string.Copy("a") + "bc"; //True
 	f4.Dump();
 }
-
-// Define other methods and classes here

@@ -1,4 +1,5 @@
 <Query Kind="Program">
+  <NuGetReference>System.Threading.Tasks.Extensions</NuGetReference>
   <Namespace>System.Threading.Tasks</Namespace>
 </Query>
 

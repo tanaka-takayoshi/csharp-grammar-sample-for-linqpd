@@ -16,5 +16,3 @@ void Main()
 		++term;
 	} while (term == 0);
 }
-
-// Define other methods and classes here
