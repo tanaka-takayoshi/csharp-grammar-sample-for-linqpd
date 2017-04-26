@@ -1,0 +1,8 @@
+d:\Documents\GitHub\CSharpCheatSheet\CheatSheetConsoleApp\obj\Debug\netcoreapp1.1\CheatSheetConsoleApp.AssemblyInfo.cs
+D:\Documents\GitHub\CSharpCheatSheet\CheatSheetConsoleApp\bin\Debug\netcoreapp1.1\CheatSheetConsoleApp.deps.json
+D:\Documents\GitHub\CSharpCheatSheet\CheatSheetConsoleApp\bin\Debug\netcoreapp1.1\CheatSheetConsoleApp.runtimeconfig.json
+D:\Documents\GitHub\CSharpCheatSheet\CheatSheetConsoleApp\bin\Debug\netcoreapp1.1\CheatSheetConsoleApp.runtimeconfig.dev.json
+D:\Documents\GitHub\CSharpCheatSheet\CheatSheetConsoleApp\bin\Debug\netcoreapp1.1\CheatSheetConsoleApp.dll
+D:\Documents\GitHub\CSharpCheatSheet\CheatSheetConsoleApp\bin\Debug\netcoreapp1.1\CheatSheetConsoleApp.pdb
+D:\Documents\GitHub\CSharpCheatSheet\CheatSheetConsoleApp\obj\Debug\netcoreapp1.1\CheatSheetConsoleApp.dll
+D:\Documents\GitHub\CSharpCheatSheet\CheatSheetConsoleApp\obj\Debug\netcoreapp1.1\CheatSheetConsoleApp.pdb
